@@ -1,0 +1,155 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - THIRISHA SAKTHIVEL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="file:///C:/Users/LENOVO/Desktop/prtfolio2/home.html#about">Home</a></li>
+                <li><a href="file:///C:\Users\LENOVO\Desktop\tthiri.html\about.html">About</a></li>
+                <li><a href="file:///C:\Users\LENOVO\Desktop\tthiri.html\skill.html">Skills</a></li>
+                <li><a href="file:///C:\Users\LENOVO\Desktop\tthiri.html\project.html">Projects</a></li>
+                <li><a href="file:///C:\Users\LENOVO\Desktop\tthiri.html\education.html">Education</a></li>
+                <li><a href="file:///C:\Users\LENOVO\Desktop\tthiri.html\Internship.html">Internship</a></li>
+                <li><a href="file:///C:\Users\LENOVO\Desktop\tthiri.html\contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="content">
+            <h1>Hello, I'm <span>THIRISHA SAKTHIVEL</span></h1>
+            <p>Welcome to my portfolio! I'm a passionate web developer ready to build amazing experiences.</p>
+            <a href="file:///C:\Users\LENOVO\Desktop\tthiri.html\about.html" class="btn">Learn More</a>
+        </div>
+    </section>
+    </body>
+</html>
+<style> *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:black;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:magenta;
+}
+.logo:hover{
+    color:#f39c12;
+    transform:scale(1.10);
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color:blueviolet;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+
+
+#home {
+    height: 100vh;
+    background:lightcyan ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:black;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+
+.content h1 span {
+    color:blue;
+}
+
+.content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color:blueviolet;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+
+.content h1:hover {
+    transform: scale(1.05);
+}
+</style>
